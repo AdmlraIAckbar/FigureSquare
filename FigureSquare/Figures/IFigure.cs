@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace FigureSquare.Figures
 {
+    /// <summary>
+    /// интерфейс абстрактной фигуры
+    /// </summary>
     public interface IFigure
     {
         /// <summary>

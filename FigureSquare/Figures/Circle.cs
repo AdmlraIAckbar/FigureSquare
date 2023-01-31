@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace FigureSquare.Figures
 {
+    /// <summary>
+    /// круг
+    /// </summary>
     public class Circle : IFigure
     {
+        /// <summary>
+        /// радиус
+        /// </summary>
         public double Radius { get; set; }
         public Circle(double radius)
         {

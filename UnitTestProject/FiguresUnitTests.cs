@@ -41,6 +41,7 @@ namespace UnitTestProject
         /// <returns></returns>
         private IFigure getfigure()
         {
+            // c щансами примерно 50/50 возвращаем или круг или треугольник
             if (new Random().NextSingle() >= 0.5)
             {
                 return new Triangle(3, 4, 5);
@@ -60,6 +61,7 @@ namespace UnitTestProject
 
             var area = figure.GetArea();
 
+            /// проверяем площадь фигуры на равенство площади треугольника или круга
             Assert.True(area == 6 || area == Math.PI*100);
         }
     }

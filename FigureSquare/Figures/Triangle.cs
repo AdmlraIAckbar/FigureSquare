@@ -6,10 +6,22 @@ using System.Threading.Tasks;
 
 namespace FigureSquare.Figures
 {
+    /// <summary>
+    /// треугольник
+    /// </summary>
     public class Triangle : IFigure
     {
+        /// <summary>
+        /// сторона A
+        /// </summary>
         public double A { get; set; }
+        /// <summary>
+        /// сторона B
+        /// </summary>
         public double B { get; set; }
+        /// <summary>
+        /// сторона C
+        /// </summary>
         public double C { get; set; }
         public Triangle(double a, double b, double c)
         {
